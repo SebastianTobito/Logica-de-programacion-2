@@ -1,7 +1,12 @@
 let numeroSecreto = generadorNumeroSecreto();
-console.log(numeroSecreto);
-function intentoUsuario(){
- alert('Click desde el boton')
+
+
+
+function verificarIntento(){
+ let numeroDelUsuario = parseInt(document.getElementById('valorUsuario').value);
+ console.log(typeof(numeroDelUsuario));
+ console.log(numeroSecreto);
+ console.log(numeroSecreto === numeroDelUsuario);
 };
 
 function asignarTextoElemento (elemento, texto){
