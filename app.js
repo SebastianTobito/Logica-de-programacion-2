@@ -4,9 +4,10 @@ let numeroSecreto = generadorNumeroSecreto();
 
 function verificarIntento(){
  let numeroDelUsuario = parseInt(document.getElementById('valorUsuario').value);
- console.log(typeof(numeroDelUsuario));
- console.log(numeroSecreto);
- console.log(numeroSecreto === numeroDelUsuario);
+ console.log("El número del usuario es de tipo: " + typeof(numeroDelUsuario));
+ console.log("El número secreto es el: " + numeroSecreto);
+ console.log("El número secreto es de tipo: " + typeof(numeroSecreto));
+ console.log("La comparación entre el número secreto y el número del usuario es: " + numeroSecreto === numeroDelUsuario);
 };
 
 function asignarTextoElemento (elemento, texto){
