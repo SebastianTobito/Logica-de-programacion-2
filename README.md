@@ -1,5 +1,3 @@
-# Logica-de-programacion-2
+# Juego del número secreto 
 
-Curso de logica de progración #2.
-
-Curso impartido por Alura Latam y Oracle, en el cual vamos a trabajar con el juego del número secreto adicionando elementos de HTML y interactividad a través de Javascript.
+En esta oportunidad hicimos una página web donde le pedimos al usurio que adivine un número del 1 al 10, la página le cuenta al usurio si el número secreto es mayor o menor, para ayudarle. Tiene las oportunidades que quiera para encontrar el número secreto y además de todo esto, después de adivinar el número puede volver a jugar hasta que encuentre todos los números secretos del 1 al 10.
