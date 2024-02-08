@@ -43,10 +43,17 @@ function promediolista() {
 }
 promediolista();
 //7. Crea una función que muestre en la consola el número más grande y el número más pequeño en una lista.
-let arrayNumeros = [20,5,45,23];
-function mostrarNumeroMayor() {
-    
-}
+function encontrarMayorMenor(lista) {
+    let numeroMayor = Math.max(...lista);
+    let numeroMenor = Math.min(...lista);
+  
+    console.log('Mayor:', numeroMayor);
+    console.log('Menor:', numeroMenor);
+    }
+  
+
+  let numeros2 = [15, 8, 25, 5, 12];
+  encontrarMayorMenor(numeros2);
 
 //.8 Crea una función que devuelva la suma de todos los elementos en una lista.
 
